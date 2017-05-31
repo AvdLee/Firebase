@@ -31,7 +31,6 @@
 		7B720AC71E6D1562009F2AE8 /* Firebase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Firebase.h; sourceTree = "<group>"; };
 		7B720ACA1E6D1580009F2AE8 /* AdMob */ = {isa = PBXFileReference; lastKnownFileType = folder; path = AdMob; sourceTree = "<group>"; };
 		7B720ACB1E6D1580009F2AE8 /* Analytics */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Analytics; sourceTree = "<group>"; };
-		7B720ACC1E6D1580009F2AE8 /* AppIndexing */ = {isa = PBXFileReference; lastKnownFileType = folder; path = AppIndexing; sourceTree = "<group>"; };
 		7B720ACD1E6D1580009F2AE8 /* Auth */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Auth; sourceTree = "<group>"; };
 		7B720ACE1E6D1580009F2AE8 /* Crash */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Crash; sourceTree = "<group>"; };
 		7B720ACF1E6D1580009F2AE8 /* Database */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Database; sourceTree = "<group>"; };
@@ -92,7 +91,6 @@
 				7B720AD41E6D158A009F2AE8 /* Storage */,
 				7B720ACA1E6D1580009F2AE8 /* AdMob */,
 				7B720ACB1E6D1580009F2AE8 /* Analytics */,
-				7B720ACC1E6D1580009F2AE8 /* AppIndexing */,
 				7B720ACD1E6D1580009F2AE8 /* Auth */,
 				7B720ACE1E6D1580009F2AE8 /* Crash */,
 				7B720ACF1E6D1580009F2AE8 /* Database */,

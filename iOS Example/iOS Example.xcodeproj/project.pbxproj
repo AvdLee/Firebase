@@ -7,8 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		50171BF11EDEC802006E13CF /* Firebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50171BF01EDEC802006E13CF /* Firebase.framework */; };
-		50171BF21EDEC802006E13CF /* Firebase.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 50171BF01EDEC802006E13CF /* Firebase.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		50171C091EDED924006E13CF /* Firebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50171C081EDED924006E13CF /* Firebase.framework */; };
 		7B720B081E6D3F72009F2AE8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7B720B071E6D3F72009F2AE8 /* GoogleService-Info.plist */; };
 		D95E1C451D88E71A00F94976 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95E1C441D88E71A00F94976 /* AppDelegate.swift */; };
 		D95E1C471D88E71A00F94976 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95E1C461D88E71A00F94976 /* ViewController.swift */; };
@@ -24,7 +23,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				50171BF21EDEC802006E13CF /* Firebase.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 1;
@@ -32,7 +30,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		50171BF01EDEC802006E13CF /* Firebase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Firebase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		50171BF31EDECC8E006E13CF /* Firebase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Firebase.framework; path = "../build/Debug-iphoneos/Firebase.framework"; sourceTree = "<group>"; };
+		50171BFE1EDECD15006E13CF /* Firebase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Firebase.framework; path = "../../../../../Library/Developer/Xcode/DerivedData/Firebase-btvhmtdoejuiacgrzelzbgiagych/Build/Products/Debug-iphoneos/Firebase.framework"; sourceTree = "<group>"; };
+		50171C001EDECD71006E13CF /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAnalytics.framework; path = ../Source/Analytics/FirebaseAnalytics.framework; sourceTree = "<group>"; };
+		50171C011EDECD71006E13CF /* FirebaseCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseCore.framework; path = ../Source/Analytics/FirebaseCore.framework; sourceTree = "<group>"; };
+		50171C021EDECD71006E13CF /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseInstanceID.framework; path = ../Source/Analytics/FirebaseInstanceID.framework; sourceTree = "<group>"; };
+		50171C031EDECD71006E13CF /* GoogleToolboxForMac.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleToolboxForMac.framework; path = ../Source/Analytics/GoogleToolboxForMac.framework; sourceTree = "<group>"; };
+		50171C081EDED924006E13CF /* Firebase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Firebase.framework; path = "../../../../../Library/Developer/Xcode/DerivedData/Firebase-btvhmtdoejuiacgrzelzbgiagych/Build/Products/Debug-iphonesimulator/Firebase.framework"; sourceTree = "<group>"; };
 		7B4470BD1D9A40CA003949FC /* iOS Example.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "iOS Example.entitlements"; sourceTree = "<group>"; };
 		7B720B071E6D3F72009F2AE8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		D95E1C411D88E71A00F94976 /* iOS Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,7 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50171BF11EDEC802006E13CF /* Firebase.framework in Frameworks */,
+				50171C091EDED924006E13CF /* Firebase.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,7 +63,10 @@
 		D95E1C381D88E71A00F94976 = {
 			isa = PBXGroup;
 			children = (
-				50171BF01EDEC802006E13CF /* Firebase.framework */,
+				50171C001EDECD71006E13CF /* FirebaseAnalytics.framework */,
+				50171C011EDECD71006E13CF /* FirebaseCore.framework */,
+				50171C021EDECD71006E13CF /* FirebaseInstanceID.framework */,
+				50171C031EDECD71006E13CF /* GoogleToolboxForMac.framework */,
 				7B4470BD1D9A40CA003949FC /* iOS Example.entitlements */,
 				7B720B071E6D3F72009F2AE8 /* GoogleService-Info.plist */,
 				D95E1C431D88E71A00F94976 /* Source */,
@@ -92,6 +99,9 @@
 		D95E1C881D88F39300F94976 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				50171C081EDED924006E13CF /* Firebase.framework */,
+				50171BFE1EDECD15006E13CF /* Firebase.framework */,
+				50171BF31EDECC8E006E13CF /* Firebase.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -125,7 +135,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0800;
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = soheilbm;
 				TargetAttributes = {
 					D95E1C401D88E71A00F94976 = {
@@ -174,7 +184,7 @@
 /* Begin PBXShellScriptBuildPhase section */
 		7B720B091E6D4197009F2AE8 /* Carthage */ = {
 			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 8;
 			files = (
 			);
 			inputPaths = (
@@ -186,7 +196,7 @@
 			name = Carthage;
 			outputPaths = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
+			runOnlyForDeploymentPostprocessing = 1;
 			shellPath = /bin/sh;
 			shellScript = "carthage copy-frameworks";
 		};
@@ -242,6 +252,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -292,6 +303,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;

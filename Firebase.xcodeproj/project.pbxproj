@@ -24,11 +24,6 @@
 
 /* Begin PBXFileReference section */
 		50171BEF1EDEC319006E13CF /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
-		7B44706D1D9A2715003949FC /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseAnalytics.framework; sourceTree = "<group>"; };
-		7B44706E1D9A2715003949FC /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseInstanceID.framework; sourceTree = "<group>"; };
-		7B44706F1D9A2715003949FC /* GoogleInterchangeUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleInterchangeUtilities.framework; sourceTree = "<group>"; };
-		7B4470701D9A2715003949FC /* GoogleSymbolUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleSymbolUtilities.framework; sourceTree = "<group>"; };
-		7B4470711D9A2715003949FC /* GoogleUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleUtilities.framework; sourceTree = "<group>"; };
 		7B720AC71E6D1562009F2AE8 /* Firebase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Firebase.h; sourceTree = "<group>"; };
 		7B720ACA1E6D1580009F2AE8 /* AdMob */ = {isa = PBXFileReference; lastKnownFileType = folder; path = AdMob; sourceTree = "<group>"; };
 		7B720ACB1E6D1580009F2AE8 /* Analytics */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Analytics; sourceTree = "<group>"; };
@@ -117,11 +112,6 @@
 		D95E1BF71D88DFFD00F94976 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				7B44706D1D9A2715003949FC /* FirebaseAnalytics.framework */,
-				7B44706E1D9A2715003949FC /* FirebaseInstanceID.framework */,
-				7B44706F1D9A2715003949FC /* GoogleInterchangeUtilities.framework */,
-				7B4470701D9A2715003949FC /* GoogleSymbolUtilities.framework */,
-				7B4470711D9A2715003949FC /* GoogleUtilities.framework */,
 			);
 			name = Frameworks;
 			path = Tests;
@@ -149,7 +139,7 @@
 				D95E1BD91D88D63300F94976 /* Frameworks */,
 				D95E1BDA1D88D63300F94976 /* Headers */,
 				D95E1BDB1D88D63300F94976 /* Resources */,
-				7B4471011D9A59BD003949FC /* ShellScript */,
+				7B4471011D9A59BD003949FC /* Copy frameworks */,
 			);
 			buildRules = (
 			);
@@ -235,13 +225,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		7B4471011D9A59BD003949FC /* ShellScript */ = {
+		7B4471011D9A59BD003949FC /* Copy frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
+			name = "Copy frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;

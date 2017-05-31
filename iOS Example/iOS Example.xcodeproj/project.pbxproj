@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7B4470BC1D9A2E31003949FC /* Firebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B4470BB1D9A2E31003949FC /* Firebase.framework */; };
+		50171BF11EDEC802006E13CF /* Firebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50171BF01EDEC802006E13CF /* Firebase.framework */; };
+		50171BF21EDEC802006E13CF /* Firebase.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 50171BF01EDEC802006E13CF /* Firebase.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		7B720B081E6D3F72009F2AE8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7B720B071E6D3F72009F2AE8 /* GoogleService-Info.plist */; };
 		D95E1C451D88E71A00F94976 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95E1C441D88E71A00F94976 /* AppDelegate.swift */; };
 		D95E1C471D88E71A00F94976 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95E1C461D88E71A00F94976 /* ViewController.swift */; };
@@ -23,6 +24,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				50171BF21EDEC802006E13CF /* Firebase.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 1;
@@ -30,12 +32,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		7B4470A21D9A2D3F003949FC /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAnalytics.framework; path = ../Source/Analytics/FirebaseAnalytics.framework; sourceTree = "<group>"; };
-		7B4470A31D9A2D3F003949FC /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseInstanceID.framework; path = ../Source/Analytics/FirebaseInstanceID.framework; sourceTree = "<group>"; };
-		7B4470A41D9A2D3F003949FC /* GoogleInterchangeUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleInterchangeUtilities.framework; path = ../Source/Analytics/GoogleInterchangeUtilities.framework; sourceTree = "<group>"; };
-		7B4470A51D9A2D3F003949FC /* GoogleSymbolUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleSymbolUtilities.framework; path = ../Source/Analytics/GoogleSymbolUtilities.framework; sourceTree = "<group>"; };
-		7B4470A61D9A2D3F003949FC /* GoogleUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleUtilities.framework; path = ../Source/Analytics/GoogleUtilities.framework; sourceTree = "<group>"; };
-		7B4470BB1D9A2E31003949FC /* Firebase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Firebase.framework; path = "../build/Release-iphoneos/Firebase.framework"; sourceTree = "<group>"; };
+		50171BF01EDEC802006E13CF /* Firebase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Firebase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B4470BD1D9A40CA003949FC /* iOS Example.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "iOS Example.entitlements"; sourceTree = "<group>"; };
 		7B720B071E6D3F72009F2AE8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		D95E1C411D88E71A00F94976 /* iOS Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -45,7 +42,6 @@
 		D95E1C4B1D88E71A00F94976 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D95E1C4E1D88E71A00F94976 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D95E1C501D88E71A00F94976 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D95E1C891D88F39300F94976 /* Firebase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Firebase.framework; path = "../build/Debug-iphoneos/Firebase.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7B4470BC1D9A2E31003949FC /* Firebase.framework in Frameworks */,
+				50171BF11EDEC802006E13CF /* Firebase.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +59,7 @@
 		D95E1C381D88E71A00F94976 = {
 			isa = PBXGroup;
 			children = (
+				50171BF01EDEC802006E13CF /* Firebase.framework */,
 				7B4470BD1D9A40CA003949FC /* iOS Example.entitlements */,
 				7B720B071E6D3F72009F2AE8 /* GoogleService-Info.plist */,
 				D95E1C431D88E71A00F94976 /* Source */,
@@ -95,13 +92,6 @@
 		D95E1C881D88F39300F94976 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				7B4470BB1D9A2E31003949FC /* Firebase.framework */,
-				7B4470A21D9A2D3F003949FC /* FirebaseAnalytics.framework */,
-				7B4470A31D9A2D3F003949FC /* FirebaseInstanceID.framework */,
-				7B4470A41D9A2D3F003949FC /* GoogleInterchangeUtilities.framework */,
-				7B4470A51D9A2D3F003949FC /* GoogleSymbolUtilities.framework */,
-				7B4470A61D9A2D3F003949FC /* GoogleUtilities.framework */,
-				D95E1C891D88F39300F94976 /* Firebase.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -115,7 +105,7 @@
 			buildPhases = (
 				D95E1C3D1D88E71A00F94976 /* Sources */,
 				D95E1C3E1D88E71A00F94976 /* Frameworks */,
-				7B720B091E6D4197009F2AE8 /* ShellScript */,
+				7B720B091E6D4197009F2AE8 /* Carthage */,
 				D95E1C3F1D88E71A00F94976 /* Resources */,
 				7B4470861D9A27A3003949FC /* Embed Frameworks */,
 			);
@@ -182,7 +172,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		7B720B091E6D4197009F2AE8 /* ShellScript */ = {
+		7B720B091E6D4197009F2AE8 /* Carthage */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -193,6 +183,7 @@
 				"$(SRCROOT)/../Source/Analytics/FirebaseInstanceID.framework",
 				"$(SRCROOT)/../Source/Analytics/GoogleToolboxForMac.framework",
 			);
+			name = Carthage;
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -336,6 +327,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/../**",
 				);
 				INFOPLIST_FILE = Source/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -356,6 +348,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/../**",
 				);
 				INFOPLIST_FILE = Source/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

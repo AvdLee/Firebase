@@ -23,6 +23,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		50171BEF1EDEC319006E13CF /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
 		7B44706D1D9A2715003949FC /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseAnalytics.framework; sourceTree = "<group>"; };
 		7B44706E1D9A2715003949FC /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseInstanceID.framework; sourceTree = "<group>"; };
 		7B44706F1D9A2715003949FC /* GoogleInterchangeUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleInterchangeUtilities.framework; sourceTree = "<group>"; };
@@ -31,7 +32,6 @@
 		7B720AC71E6D1562009F2AE8 /* Firebase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Firebase.h; sourceTree = "<group>"; };
 		7B720ACA1E6D1580009F2AE8 /* AdMob */ = {isa = PBXFileReference; lastKnownFileType = folder; path = AdMob; sourceTree = "<group>"; };
 		7B720ACB1E6D1580009F2AE8 /* Analytics */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Analytics; sourceTree = "<group>"; };
-		7B720ACC1E6D1580009F2AE8 /* AppIndexing */ = {isa = PBXFileReference; lastKnownFileType = folder; path = AppIndexing; sourceTree = "<group>"; };
 		7B720ACD1E6D1580009F2AE8 /* Auth */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Auth; sourceTree = "<group>"; };
 		7B720ACE1E6D1580009F2AE8 /* Crash */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Crash; sourceTree = "<group>"; };
 		7B720ACF1E6D1580009F2AE8 /* Database */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Database; sourceTree = "<group>"; };
@@ -92,7 +92,6 @@
 				7B720AD41E6D158A009F2AE8 /* Storage */,
 				7B720ACA1E6D1580009F2AE8 /* AdMob */,
 				7B720ACB1E6D1580009F2AE8 /* Analytics */,
-				7B720ACC1E6D1580009F2AE8 /* AppIndexing */,
 				7B720ACD1E6D1580009F2AE8 /* Auth */,
 				7B720ACE1E6D1580009F2AE8 /* Crash */,
 				7B720ACF1E6D1580009F2AE8 /* Database */,
@@ -100,6 +99,7 @@
 				7B720AD11E6D1580009F2AE8 /* Invites */,
 				7B720AD21E6D1580009F2AE8 /* Messaging */,
 				D95E1BE11D88D63300F94976 /* Info.plist */,
+				50171BEF1EDEC319006E13CF /* module.modulemap */,
 				7B720AC71E6D1562009F2AE8 /* Firebase.h */,
 			);
 			path = Source;
